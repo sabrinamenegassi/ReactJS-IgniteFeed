@@ -55,7 +55,7 @@ export function Post({author, publishedAt, content}) {
             <span>{author.role}</span>
           </div>
         </div>
-        <time title={publishedDateFormated} dateTime={publishedAt.toISOString()}>{publishedDateRelativeToNow}</time>
+        <time title={ publishedDateFormated } dateTime={publishedAt.toISOString()}>{publishedDateRelativeToNow}</time>
       </header>
 
       <div className={styles.content}>
